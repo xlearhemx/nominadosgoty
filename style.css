@@ -1,0 +1,217 @@
+body {
+    background-image: url("Dull.jpg");
+    background-size: cover;
+    font-family: Kode Mono
+}
+
+/*Distribuciones*/
+.threecolumnstworows {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+}
+
+/*Márgenes y Paddings*/
+.margintopcero {
+    margin-top: 0px;
+}
+.margintopsmall {
+    margin-top: 20px;
+}
+.margintopxl {
+    margin-top: 80px;
+}
+.marginbotcero {
+    margin-bottom: 0px;
+}
+.marginbotsmall {
+    margin-bottom: 4em;
+}
+.marginleftright {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Títulos, subtítulos, antetítulos y párrafos*/
+.antetitulo {
+    font-size: 70%;
+}
+.subtituloxl {
+    font-size: 2em;
+}
+.subtitulo {
+    font-size: 90%;
+}
+.subtituloxs {
+    font-size: 60%;
+}
+.titulopeli {
+    font-size: 80%;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.titulopeli:hover {
+    letter-spacing: 10px;
+}
+.info {
+    font-size: 70%;
+}
+.grantitulo {
+    font-size: 10em;
+    letter-spacing: .2em;
+}
+
+/*Alineación de letra*/
+.txtcenter {
+    text-align: center;
+}
+
+/*Estilos de letra*/
+.italic {
+    font-style: italic;
+}
+.spaced {
+    letter-spacing: 20px;
+}
+
+a {
+    color:rgb(80, 80, 80,0.5);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(80, 80, 80,1)
+}
+
+hr {
+    border-color: black;
+}
+
+img {
+    width: 60%;
+    height: 80%;
+    border-radius: 5%;
+    border: groove 2px grey;
+}
+
+#logo {
+    border: none;
+}
+
+nav img {
+    margin-left: 35%;
+    width: 30%;
+    height: 10%;
+}
+
+.shadow {
+    filter: none;
+    transition: 0.5s;
+}
+
+.shadow:hover {
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+#ganador img {
+    width: 30vw;
+    height: 60vh;
+}
+
+.infonominado {
+    width: 50vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    justify-items: center;
+    border: double 1px black;
+    border-radius: 5%;
+}
+
+.infonominado img {
+    width: 50%;
+    height: 90%;
+}
+
+.infonominado div p {
+    font-family: Micro 5;
+    font-size: 80%;
+}
+
+#infoalan {
+    padding: 3em;
+    background-image: url("Nominados/Dull_Info.jpg");
+    background-size: cover;
+    transition: 0.5s;
+}
+
+#infoalan:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+#infobaldurs {
+    padding: 3em 3em 5em 3em;
+    background-image: url("Nominados/Dull_Info.jpg");
+    background-size: cover;
+    transition: 0.5s;
+}
+
+#infobaldurs:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+#infospiderman {
+    height: 90vh;
+    padding: 3em 3em .2em 3em;
+    background-image: url("Nominados/Dull_Info.jpg");
+    background-size: cover;
+    transition: 0.5s;
+}
+
+#infospiderman:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+#inforesident {
+    height: 90vh;
+    padding: 3em 3em 1em 3em;
+    background-image: url("Nominados/Dull_Info.jpg");
+    background-size: cover;
+    transition: 0.5s;
+}
+
+#inforesident:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+#infosupermario {
+    height: 80vh;
+    padding: 3em 3em 1em 3em;
+    background-image: url("Nominados/Dull_Info.jpg");
+    background-size: cover;
+    transition: 0.5s;
+}
+
+#infosupermario:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+#infozelda {
+    height: 85vh;
+    padding: 3em 3em 1em 3em;
+    background-image: url("Nominados/Dull_Info.jpg");
+    background-size: cover;
+    transition: 0.5s;
+}
+
+#infozelda:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+#backtop {
+    display: flex;
+    justify-content: end;
+    margin-top: 5vh;
+    margin-right: 1vw;
+}

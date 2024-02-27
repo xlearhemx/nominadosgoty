@@ -189,7 +189,7 @@ nav img {
 }
 
 #infoalan {
-    padding: 3em;
+    padding: 3em 3em 6em 3em;
     background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     transition: 0.5s;
 }
@@ -199,7 +199,7 @@ nav img {
 }
 
 #infobaldurs {
-    padding: 3em 3em 5em 3em;
+    padding: 3em 3em 8em 3em;
     background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
@@ -211,7 +211,7 @@ nav img {
 
 #infospiderman {
     height: 90vh;
-    padding: 3em 3em .2em 3em;
+    padding: 3em;
     background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
@@ -223,7 +223,7 @@ nav img {
 
 #inforesident {
     height: 90vh;
-    padding: 3em 3em 1em 3em;
+    padding: 3em 3em 4em 3em;
     background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
@@ -235,7 +235,7 @@ nav img {
 
 #infosupermario {
     height: 80vh;
-    padding: 3em 3em 1em 3em;
+    padding: 3em 3em 4em 3em;
     background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
@@ -247,7 +247,7 @@ nav img {
 
 #infozelda {
     height: 85vh;
-    padding: 3em 3em 1em 3em;
+    padding: 3em 3em 4em 3em;
     background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
@@ -257,11 +257,11 @@ nav img {
     box-shadow: 0px 0px 50px black;
 }
 
-#backtop {
+#flechastopbot {
     display: flex;
     justify-content: end;
-    margin-top: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 2em;
     margin-right: 1vw;
-    position: sticky;
-    bottom: 100%;
 }
+

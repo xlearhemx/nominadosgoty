@@ -1,3 +1,11 @@
+/*El body se dispondrá con un gradient de negro a un tono naranja apagado, resaltando así cada sección
+
+1. El orden comienza con: body, siendo que se aplica de manera geneal.
+2. La declaración de clases que se van a repetir a lo largo del html.
+3. Atribución de características y estilos específicos para los primeros elementos de la página o elementos que se repiten, como nav o a.
+4. Atribución de características y estilos a clases más específicas, que no tienen por qué repetirse en todo el documento, siendo la repetición parcial o única.
+5. El orden termina con: IDs, siendo éstos los más específicos.*/
+
 body {
     background: linear-gradient(to bottom, #000000, #363636, #5f1600);
     font-family: Kode Mono;
@@ -119,8 +127,6 @@ nav img {
     width: 40%;
     height: 10%;
 }
-
-
 
 /*Clases*/
 .gameyear {

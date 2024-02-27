@@ -128,7 +128,31 @@ nav img {
     height: 10%;
 }
 
+nav .RRSS {
+    margin-top: 25vh;
+    margin-right: 45vh;
+    float:right;
+}
+
+nav .linkicono {
+    color: black;
+    opacity: 0.5;
+}
+
+nav .linkicono:hover {
+    opacity: 1;
+    text-shadow: 
+    1px 1px 2px black,
+    0 0 1em #F63C02,
+    0 0 0.2em #FFA900;
+}
+
+
 /*Clases*/
+.clear {
+    clear: both;
+}
+
 .gameyear {
     letter-spacing: 0px;  
     transition: 0.5s;

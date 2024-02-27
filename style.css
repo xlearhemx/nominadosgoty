@@ -1,7 +1,12 @@
 body {
-    background-image: url("Dull.jpg");
-    background-size: cover;
-    font-family: Kode Mono
+    background: linear-gradient(to bottom, #000000, #363636, #5f1600);
+    font-family: Kode Mono;
+    color: white;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em #F63C02,
+    0 0 0.2em #FFA900;
+    margin: 0px;
 }
 
 /*Distribuciones*/
@@ -76,16 +81,24 @@ body {
 }
 
 a {
-    color:rgb(80, 80, 80,0.5);
+    color:rgba(112, 112, 112, 0.5);
     text-decoration: none;
+    text-shadow: none;
 }
 
 a:hover {
-    color:rgb(80, 80, 80,1)
+    color:rgb(168, 168, 168)
 }
 
 hr {
-    border-color: black;
+    background-image: url("The-Game-Awards_2Y3ZSkn.jpg");
+    background-size: cover;
+    opacity: 0.5;
+    filter: drop-shadow(0px 0px 5px black);
+    width: 80%;
+    height: 2em;
+    border-style: none;
+    border-radius: 40%;
 }
 
 img {
@@ -95,14 +108,27 @@ img {
     border: groove 2px grey;
 }
 
-#logo {
-    border: none;
+nav {
+    margin: 0px;
+    width: 100%;
+    background-image: url("The-Game-Awards_2Y3ZSkn.jpg");
 }
 
 nav img {
-    margin-left: 35%;
-    width: 30%;
+    margin-left: 30%;
+    width: 40%;
     height: 10%;
+}
+
+
+
+/*Clases*/
+.gameyear {
+    letter-spacing: 0px;  
+    transition: 0.5s;
+}
+.gameyear:hover {
+    letter-spacing: 20px;
 }
 
 .shadow {
@@ -111,22 +137,29 @@ nav img {
 }
 
 .shadow:hover {
-    filter: drop-shadow(0px 0px 10px black);
-}
-
-#ganador img {
-    width: 30vw;
-    height: 60vh;
+    filter: drop-shadow(0px 0px 40px rgb(155, 155, 155));
 }
 
 .infonominado {
     width: 50vw;
     height: 100vh;
+    color: #000000;
     display: grid;
     grid-template-rows: repeat(6,1fr);
     justify-items: center;
     border: double 1px black;
     border-radius: 5%;
+    text-shadow: none;
+}
+
+.infonominado a {
+    color:rgba(134, 134, 134, 0.5);
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.infonominado a:hover {
+    color:rgba(197, 197, 197, 0.5);
 }
 
 .infonominado img {
@@ -139,79 +172,90 @@ nav img {
     font-size: 80%;
 }
 
+/*IDs*/
+#logo {
+    border: none;
+}
+
+#ganador img {
+    width: 30vw;
+    height: 60vh;
+}
+
 #infoalan {
     padding: 3em;
-    background-image: url("Nominados/Dull_Info.jpg");
-    background-size: cover;
+    background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     transition: 0.5s;
 }
 
 #infoalan:hover {
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 50px black;
 }
 
 #infobaldurs {
     padding: 3em 3em 5em 3em;
-    background-image: url("Nominados/Dull_Info.jpg");
+    background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
 }
 
 #infobaldurs:hover {
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 50px black;
 }
 
 #infospiderman {
     height: 90vh;
     padding: 3em 3em .2em 3em;
-    background-image: url("Nominados/Dull_Info.jpg");
+    background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
 }
 
 #infospiderman:hover {
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 50px black;
 }
 
 #inforesident {
     height: 90vh;
     padding: 3em 3em 1em 3em;
-    background-image: url("Nominados/Dull_Info.jpg");
+    background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
 }
 
 #inforesident:hover {
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 50px black;
 }
 
 #infosupermario {
     height: 80vh;
     padding: 3em 3em 1em 3em;
-    background-image: url("Nominados/Dull_Info.jpg");
+    background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
 }
 
 #infosupermario:hover {
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 50px black;
 }
 
 #infozelda {
     height: 85vh;
     padding: 3em 3em 1em 3em;
-    background-image: url("Nominados/Dull_Info.jpg");
+    background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     background-size: cover;
     transition: 0.5s;
 }
 
 #infozelda:hover {
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 50px black;
 }
 
 #backtop {
     display: flex;
     justify-content: end;
-    margin-top: 5vh;
+    margin-top: 1vh;
     margin-right: 1vw;
+    position: sticky;
+    bottom: 100%;
 }

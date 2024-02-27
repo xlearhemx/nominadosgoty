@@ -189,7 +189,7 @@ nav img {
 }
 
 #infoalan {
-    padding: 5em;
+    padding: 3em 3em 5em 3em;
     background: linear-gradient(to bottom, #8d5f04, #6b1a02);
     transition: 0.5s;
 }
